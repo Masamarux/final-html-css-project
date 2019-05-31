@@ -68,3 +68,43 @@
     color: #73879c;
     font-size: 16px;
 }
+
+#background-grey{
+    background-color: #f2f5f7;
+}
+.caption h1{
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    font-size: 20px;
+}
+.caption h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #73879c;
+    font-size: 14px;
+}
+#get-in-touch{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+#get-in-touch a{
+    color: #fff;
+}
+.padding-bot{
+    padding: 0 0 350px 0;
+}
+.btn-success{
+    background-color: #00bc9c !important;
+    border-color: #00bc9c !important;
+}
+
+/*Footer CSS*/
+#footer{
+    background-color: #283645;
+}
+#copyright{
+    padding: 30px 0 15px 0;
+    color: #707e8c;
+    text-align: center;
+}
