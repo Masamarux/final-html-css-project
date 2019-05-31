@@ -1,0 +1,70 @@
+/*Header CSS*/
+#menu{
+    padding: 35px 0 0 0;
+}
+#menu ul li{
+    padding: 0px;
+    margin: 0px 25px 0px 25px;
+    list-style-type: none;
+    display: inline;
+    font-family: 'Source Sans Pro';
+}
+#menu a{
+    color: #506a85;
+    text-decoration: none;
+}
+#logo{
+    padding: 30px 0 0 0;
+    display: inline;
+}
+#header{
+    padding: 50px 0 10px 0;
+}
+#header_background{
+    background-color: #fff;
+    height: 100px;
+}
+
+/*Content CSS*/
+.texto{
+    padding: 4.5cm 0 0 0;
+}
+.texto h1{
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    font-weight: 600;
+    font-size: 44px;
+}
+.texto h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #73879c;
+    font-size: 22px;
+}
+
+.oi-star{
+    color: #00bc9c;
+    font-size: 1.75cm;
+}
+.oi-heart{
+    color: #00bc9c;
+    font-size: 1.75cm;
+}
+.oi-sun{
+    color: #00bc9c;
+    font-size: 1.75cm;
+}
+
+.about-us{
+    padding: 45px 0 150px 0;
+}
+.about-us h1{
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    font-weight: 600;
+    font-size: 26px; 
+}
+.about-us h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #73879c;
+    font-size: 16px;
+}
