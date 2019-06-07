@@ -8,8 +8,15 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
 
+        <!--CSS bxSlider-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
         <!--CSS próprio-->
         <link rel="stylesheet" href="css/main.css">
+
+        <!--CSS owlCarousel2-->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
         <!--Fontes-->
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
@@ -49,7 +56,13 @@
         </div>
 
         <!--content-->
-        <img class="img-fluid" src="img/hero.jpg">
+        <div class="slider" id="carrousel">
+            <div><img src="img/carrousel-1.jpg" /></div>
+            <div><img src="img/carrousel-2.jpg" /></div>
+            <div><img src="img/carrousel-3.jpg" /></div>
+            <div><img src="img/carrousel-4.jpg" /></div>
+            <div><img src="img/carrousel-5.jpg" /></div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12 texto">
@@ -125,21 +138,12 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="row pb-4">
-                    <div class="col-3">
-                        <img src="img/images-2-1.jpg" class="img-fluid" alt="...">
-                    </div>
-                    <div class="col-3">
-                        <img src="img/images-2-2.jpg" class="img-fluid" alt="...">
-                    </div>
-                    <div class="col-3">
-                        <img src="img/images-2-3.jpg" class="img-fluid" alt="...">
-                    </div>
-                    <div class="col-3">
-                        <img src="img/images-2-4.jpg" class="img-fluid" alt="...">
-                    </div>
+                <div class="owl-carousel row pb-4">
+                    <div><img src="img/images-2-1.jpg"></div>
+                    <div><img src="img/images-2-2.jpg"></div>
+                    <div><img src="img/images-2-3.jpg"></div>
+                    <div><img src="img/images-2-4.jpg"></div>
                 </div>
-                
             </div>
         </div>
         <div class="container">
@@ -168,5 +172,14 @@
                 </div>
             </div>
         </div>
+
+        <!--Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <script src="js/owl.carousel.min.js"></script>
+        
+        <script src="js/scripts.js"></script>
     </body>
 </html>
